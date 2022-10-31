@@ -26,25 +26,21 @@ print(report)
 player="Ronald Koeman"
 # 2. First name
 find_space=player.find(" ")
-first_name = player[0:find_space] #,player.find(player)
+first_name = player[0:find_space] 
 #first_name_find = player.find(first_name)
 print(first_name)
-# Temporary variables
 last_name = player[7: ]
 print(last_name)
 # 3. Last name 
 #last_name_len_1= player[7: ],player.find (last_name), 
 last_name_len = len(last_name)
 print(last_name_len)
-#print (last_name_len)
 #  4. Name short
 name_short = (player [:1]+". "+ last_name)
 print (name_short)
 # 5. Chant
 chant = (first_name+"! ") * len(player[:5]) + (first_name+"!")
-#chant=chant[-1:0]
 print(chant)
-#chant = chant [-1: ]
  #6. Goodchant
 good_chant=chant[-1: ]
 good_chant=boolean!=" "
